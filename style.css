@@ -14,7 +14,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 1140px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 /* common style section start */
@@ -37,23 +37,27 @@ header {
   background-repeat: no-repeat;
   background-size: auto;
 }
-nav ul {
+nav {
   display: flex;
   padding: 50px 0;
 }
-nav ul li {
-  list-style: none;
-}
-nav ul li a {
-  text-decoration: none;
+.logo-section {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-left: 150px;
 }
 .logo {
   font-size: 34px;
+  color: #4e47ff;
   font-weight: bolder;
-  margin-right: 130px;
+  text-decoration: none;
 }
-.sign-btn {
-  margin-left: 170px;
+.sign-up-btn {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  margin-right: 150px;
 }
 .header-heading {
   width: 900px;
@@ -69,3 +73,57 @@ nav ul li a {
   margin-bottom: 150px;
 }
 /* header style section close */
+/* action section start */
+.action-section {
+  display: flex;
+  width: 1140px;
+  margin-top: 115px;
+  align-items: center;
+}
+.action-header {
+  width: 520px;
+  margin: 0;
+}
+.action-header h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+.action-header p {
+  color: #8e8f99;
+  font-size: 24px;
+  margin: 25px 0;
+}
+.action-img {
+  margin-right: 0;
+}
+.action-img img {
+  text-align: right;
+  border-radius: 48px;
+}
+/* action section close */
+/* user counting section start */
+.user-counting-section {
+  background-color: #e6e8ff;
+  width: 1140px;
+  margin-top: 115px;
+  padding: 50px 80px;
+  border-radius: 24px;
+}
+.user-title {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.user-number {
+  font-size: 80px;
+  color: #4e47ff;
+}
+.user-footer {
+  color: #8e8f99;
+  font-size: 20px;
+}
+.user-counting-container {
+  display: flex;
+}
+/* user counting section close */
