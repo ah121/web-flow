@@ -21,6 +21,7 @@
 
 .btn-cmn {
   background-color: #4e47ff;
+  font-family: "Raleway", sans-serif;
   color: white;
   padding: 12px 36px;
   border-radius: 10px;
@@ -29,6 +30,7 @@
 .btn-cmn:hover {
   color: black;
   background-color: yellow;
+  font-family: "Raleway", sans-serif;
 }
 /* common style section close */
 /* header style section start */
@@ -127,3 +129,55 @@ nav {
   display: flex;
 }
 /* user counting section close */
+/* review section start */
+.review-section {
+  margin-top: 130px;
+  width: 1140px;
+}
+.review-title h1 {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.review-wrapper {
+  display: flex;
+}
+.review-continer {
+  width: 367px;
+  padding: 0 24px 24px 24px;
+  background-color: #e5e2e2;
+  border-radius: 14px;
+}
+.for-margin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.review-star {
+  margin: 20px 0;
+}
+.review-detail p {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.review-person {
+  display: flex;
+}
+.review-person-img {
+  margin: 0;
+}
+.review-person-img img {
+  border-radius: 50%;
+}
+.review-person-name {
+  margin: 0;
+  padding-left: 10px;
+}
+.review-person-name h1 {
+  color: #757575;
+}
+.review-person-name p {
+  color: #8e8f99;
+  font-size: 20px;
+}
+/* review section close */
