@@ -18,7 +18,6 @@
   margin: 0 auto;
 }
 /* common style section start */
-
 .btn-cmn {
   background-color: #4e47ff;
   font-family: "Raleway", sans-serif;
@@ -31,6 +30,7 @@
   color: black;
   background-color: yellow;
   font-family: "Raleway", sans-serif;
+  transition: 0.4s;
 }
 /* common style section close */
 body {
@@ -242,10 +242,6 @@ form {
   border-radius: 10px;
   border-style: none;
 }
-/* label {
-  display: inline-block;
-  margin-bottom: 5px;
-} */
 input::placeholder {
   color: #757575;
   font-size: 20px;
@@ -264,5 +260,23 @@ textarea {
 /* footer section start */
 footer {
   width: 1140px;
+}
+.footer-container {
+  width: 630px;
+  text-align: center;
+  padding: 105px 0;
+}
+.footer-container p {
+  color: #8e8f99;
+  font-size: 20px;
+  margin: 10px 0 20px 0;
+}
+.footer-nav {
+  list-style: none;
+  display: flex;
+}
+.footer-nav a {
+  text-decoration: none;
+  color: #8e8f99;
 }
 /* footer section close */
