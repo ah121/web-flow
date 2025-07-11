@@ -33,6 +33,9 @@
   font-family: "Raleway", sans-serif;
 }
 /* common style section close */
+body {
+  background-color: #f5f8ff;
+}
 /* header style section start */
 header {
   background-image: url(Assets/Hero-bg.png);
@@ -50,9 +53,6 @@ nav {
   margin-left: 150px;
 }
 .logo {
-  font-size: 34px;
-  color: #4e47ff;
-  font-weight: bolder;
   text-decoration: none;
 }
 .sign-up-btn {
@@ -145,7 +145,7 @@ nav {
 .review-continer {
   width: 367px;
   padding: 0 24px 24px 24px;
-  background-color: #e5e2e2;
+  background-color: #fafcff;
   border-radius: 14px;
 }
 .for-margin {
@@ -181,3 +181,88 @@ nav {
   font-size: 20px;
 }
 /* review section close */
+/* focus section start */
+.focus-section {
+  width: 1140px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  margin-top: 135px;
+  padding: 70px 150px;
+}
+.focus-section-detail {
+  text-align: center;
+}
+.focus-section h1 {
+  font-size: 50px;
+}
+.focus-section p {
+  font-size: 20px;
+  color: #757575;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.focus-section-detail img {
+  border-radius: 48px;
+  margin-top: 20px;
+}
+/* focus section close */
+/* form section start */
+.form-section {
+  width: 1140px;
+  padding: 70px 0;
+  margin-top: 90px;
+  display: flex;
+}
+.form-header {
+  width: 530px;
+  margin: 0;
+}
+.form-header h1 {
+  font-size: 97px;
+  font-weight: bold;
+}
+form {
+  margin-right: 0;
+  text-align: left;
+  display: inline-block;
+  width: 500px;
+}
+.form-field {
+  list-style: none;
+}
+.form-field li {
+  font-size: 20px;
+  width: 100%;
+}
+.form-field li input {
+  width: 100%;
+  padding: 20px 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+/* label {
+  display: inline-block;
+  margin-bottom: 5px;
+} */
+input::placeholder {
+  color: #757575;
+  font-size: 20px;
+}
+textarea {
+  font-family: "Inter", sans-serif;
+  padding: 20px 32px;
+  margin: 10px 0 0 0;
+  border-style: none;
+  width: 100%;
+  resize: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+/* form section close */
+/* footer section start */
+footer {
+  width: 1140px;
+}
+/* footer section close */
